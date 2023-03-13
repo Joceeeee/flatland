@@ -1,11 +1,11 @@
 var square = document.getElementById('square');
-
+alert("1");
 function changeColour(colour) {
     square.style.background = colour;
 }
-
+alert("2");
 square.addEventListener('click', (event) => changeColour('green'));
-
+alert("3");
 /* create hover effect*/
 square.addEventListener('mouseover', (event) => changeColour('grey'));
 square.addEventListener('mouseout', (event) => changeColour('red'));
