@@ -4,7 +4,7 @@ function changeColour(color) {
     square.background = colour;
 }
 
-square.addEventListener('click', (event) => changeColour('green'))
+square.addEventListener('click', (event) => changeColour('green'));
 
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
