@@ -17,6 +17,9 @@ function greeting() {
     words.innerHTML = "Welcom to flatland <br> I am Square!"
 }
 
+document.onload = greeting()
+
+
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
     let buzz = ["Paradigm-changing", "Multi-tier", "10,000-foot", "Agile", "Customer", "Win-win"];
@@ -29,7 +32,5 @@ function createBuzzwordPhrase() {
 
     return  buzz[idx_buz] + " " + action[idx_act] + " " + outcome[idx_out];
 }
-
-document.onload = greeting()
 
 console.log(createBuzzwordPhrase())
